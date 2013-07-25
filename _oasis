@@ -1,0 +1,15 @@
+OASISFormat: 0.3
+Name:        obench
+Version:     0.1
+Synopsis:    trivial performance benchmarking functions
+Authors:     Francois Berenger
+License:     BSD3
+Plugins:     META (0.3), DevFiles (0.3)
+
+BuildTools: ocamlbuild
+
+Executable ac
+  Path:           .
+  BuildDepends:   batteries
+  CompiledObject: best
+  MainIs:         bench.ml
