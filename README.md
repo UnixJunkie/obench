@@ -1,7 +1,7 @@
 obench
 ======
 
-my minimilastic benchmarking library for OCaml code
+a minimalist benchmarking program for OCaml code
 
 Better alternatives
 ===================
